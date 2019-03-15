@@ -1,0 +1,24 @@
+﻿{
+  "name": "QnABotSampleBxl",
+  "services": [
+    {
+      "type": "endpoint",
+      "name": "development",
+      "endpoint": "http://localhost:3978/api/messages",
+      "appId": "",
+      "appPassword": "",
+      "id": "1"
+    },
+    {
+      "type": "qna",
+      "endpointKey": "cfbbaee1-0973-48cc-b366-a1313758c3db",
+      "hostname": "https://labbxl.azurewebsites.net/qnamaker",
+      "id": "117",
+      "kbId": "cdcd7b37-4d3f-4a10-ba31-2c46ac7e8ea3",
+      "name": "QnABot",
+      "subscriptionKey": ""
+    }
+  ],
+  "padlock": "",
+  "version": "2.0"
+}
