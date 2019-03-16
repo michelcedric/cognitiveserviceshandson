@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>763f8275-5580-4bc0-a78c-565d5578bdbf</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="QnABotSampleBxl.bot">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" />
+    <PackageReference Include="Microsoft.Bot.Builder" Version="4.3.2" />
+    <PackageReference Include="Microsoft.Bot.Builder.AI.QnA" Version="4.3.2" />
+    <PackageReference Include="Microsoft.Bot.Builder.Integration.AspNet.Core" Version="4.3.2" />
+    <PackageReference Include="Microsoft.Bot.Configuration" Version="4.3.2" />
+    <PackageReference Include="Microsoft.Bot.Connector" Version="4.3.2" />
+    <PackageReference Include="Microsoft.Bot.Schema" Version="4.3.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="3.0.0-preview3.19153.1" />
+  </ItemGroup>
+</Project>
