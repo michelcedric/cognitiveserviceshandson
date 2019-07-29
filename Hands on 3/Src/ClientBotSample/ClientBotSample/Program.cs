@@ -8,6 +8,7 @@ using Activity = Microsoft.Bot.Connector.DirectLine.Activity;
 
 namespace ClientBotSample
 {
+    //TOTO
     class Program
     {
         private static string directLineSecret = "6LGHGOJC_C4.sWYiSesRaGqwJrDqpDAlQ2ESycfxAVpHU_VYrxMohzM";
